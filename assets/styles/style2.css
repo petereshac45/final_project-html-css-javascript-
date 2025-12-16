@@ -1,0 +1,147 @@
+.showData {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.showData .arrows {
+    display: flex;
+    flex-direction: row;
+    align-self: self-end;
+    gap: 20px;
+    margin-right: 110px;
+}
+
+.showData .arrows button {
+    background-color: black;
+    color: var(--white-color);
+    border-radius: 50%;
+    width: 30px;
+    border: none;
+    height: 30px;
+    transition: .8s;
+}
+
+.showData .arrows button:hover {
+    background-color: var(--main-color);
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.showData h2 {
+    padding: 80px;
+    align-self: self-start;
+    text-transform: capitalize;
+    font-size: clamp(14px, 2vw, 50px);
+}
+
+.showData .Products {
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    gap: 20px;
+    padding: 10px;
+    width: 90%;
+    flex-direction: row;
+    justify-content: center
+}
+
+.showData .Products .product {
+    display: flex;
+    width: 23%;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    overflow: hidden;
+    transition: 1s;
+    padding: 10px;
+    filter: opacity(0.4) brightness(70%);
+}
+
+.showData .Products .product:hover {
+    filter: none;
+    cursor: pointer;
+}
+
+.showData .Products .product .img {
+    width: 100%;
+    gap: 10px;
+    padding: 5px;
+    position: relative;
+    transition: 0.7s ease;
+    height: 300px;
+}
+
+.showData .Products .product .img img {
+    width: 90%;
+    display: block;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0 red) brightness(90%);
+}
+
+.showData .Products .product .pruchers {
+    display: flex;
+    position: absolute;
+    right: 0;
+    gap: 10px;
+    transform: translateX(70px);
+    top: 40px;
+    padding: 10px 0;
+    transition: .9s;
+    flex-direction: column;
+}
+
+.showData .Products .product .pruchers span {
+    width: 30px;
+    background-color: #15161d;
+    height: 30px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    transition: .8s;
+    align-items: center;
+    justify-content: center;
+}
+
+.showData .Products .product .pruchers span:hover {
+    color: red;
+}
+
+.showData .Products .img:hover img {
+    transition: .8s;
+    filter: drop-shadow(0 0 12px red);
+    transform: scale(1.2);
+}
+
+.showData .Products .product :hover .pruchers {
+    transform: translateX(-10px);
+}
+
+.showData .Products .product .head {
+    font-size: clamp(14px, 2vw, 24px);
+    color: red;
+    font-weight: bold;
+}
+
+.showData .Products .product .title {
+    font-weight: bold;
+}
+
+.showData .Products .product .price span {
+    font-weight: bold;
+}
+
+.showData .Products .product .review {
+    font-weight: bold;
+}
+
+.showData .Products .product .stars {
+    color: gold;
+}
