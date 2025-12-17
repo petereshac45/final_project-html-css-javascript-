@@ -17,7 +17,7 @@ const products = [{
     price: 6500,
     dis: 9500,
     review: 17,
-    img: "/assets/images/laptops/DellPrecisionEdge.png",
+    img: "assets/images/laptops/DellPrecisionEdge.png",
     amount: 1
 }, {
     name: "HP Aura ProBook",
@@ -25,7 +25,7 @@ const products = [{
     price: 10200,
     dis: 12200,
     review: 11,
-    img: "/assets/images/laptops/HPAuraProBook.png",
+    img: "assets/images/laptops/HPAuraProBook.png",
     amount: 1
 }, {
     name: "MacBook Obsidian Stealth",
@@ -33,14 +33,14 @@ const products = [{
     price: 17500,
     dis: 20000,
     review: 40,
-    img: "/assets/images/laptops/MacBookObsidianStealth.png"
+    img: "assets/images/laptops/MacBookObsidianStealth.png"
 }, {
     name: "Alienware Quantum Core",
     type: "laptops",
     price: 5500,
     dis: 8000,
     review: 34,
-    img: "/assets/images/laptops/AlienwareQuantumCore.png",
+    img: "assets/images/laptops/AlienwareQuantumCore.png",
     amount: 1
 
 }, {
@@ -49,7 +49,7 @@ const products = [{
     price: 6800,
     dis: 8000,
     review: 13,
-    img: "/assets/images/laptops/ROGZenithBlaze.png",
+    img: "assets/images/laptops/ROGZenithBlaze.png",
     amount: 1
 }, {
     name: "Samsung Galaxy Zenith",
@@ -57,7 +57,7 @@ const products = [{
     price: 9000,
     dis: 11500,
     review: 20,
-    img: "/assets/images/phones/SamsungGalaxyZenith.png",
+    img: "assets/images/phones/SamsungGalaxyZenith.png",
     amount: 1
 }, {
     name: "Pixel Aura Flow",
@@ -65,7 +65,7 @@ const products = [{
     price: 7800,
     dis: 9000,
     review: 13,
-    img: "/assets/images/phones/PixelAuraFlow.png",
+    img: "assets/images/phones/PixelAuraFlow.png",
     amount: 1
 }, {
     name: "Huawei Nova Prism",
@@ -73,7 +73,7 @@ const products = [{
     price: 5800,
     dis: 6300,
     review: 13,
-    img: "/assets/images/phones/HuaweiNovaPrism.png",
+    img: "assets/images/phones/HuaweiNovaPrism.png",
     amount: 1
 }, {
     name: "iPhone Onyx Pro",
@@ -81,7 +81,7 @@ const products = [{
     price: 9000,
     dis: 11500,
     review: 20,
-    img: "/assets/images/phones/iPhoneOnyxPro.png",
+    img: "assets/images/phones/iPhoneOnyxPro.png",
     amount: 1
 }, {
     name: "Echo Horizon",
@@ -89,7 +89,7 @@ const products = [{
     price: 500,
     dis: 800,
     review: 17,
-    img: "/assets/images/headphones/EchoHorizon.png",
+    img: "assets/images/headphones/EchoHorizon.png",
     amount: 1
 }, {
     name: "RogueAudio Pro",
@@ -97,7 +97,7 @@ const products = [{
     price: 950,
     dis: 1100,
     review: 19,
-    img: "/assets/images/headphones/RogueAudioPro.png",
+    img: "assets/images/headphones/RogueAudioPro.png",
     amount: 1
 }, {
     name: "Lumina Clarity",
@@ -105,7 +105,7 @@ const products = [{
     price: 570,
     dis: 850,
     review: 32,
-    img: "/assets/images/headphones/LuminaClarity.png",
+    img: "assets/images/headphones/LuminaClarity.png",
     amount: 1
 }, {
     name: "VortexBlazeGaming",
@@ -113,7 +113,7 @@ const products = [{
     price: 1250,
     dis: 1600,
     review: 19,
-    img: "/assets/images/headphones/VortexBlazeGaming.png",
+    img: "assets/images/headphones/VortexBlazeGaming.png",
     amount: 1
 }, {
     name: "Quantum PulseX",
@@ -121,7 +121,7 @@ const products = [{
     price: 850,
     dis: 1100,
     review: 25,
-    img: "/assets/images/headphones/QuantumPulseX.png",
+    img: "assets/images/headphones/QuantumPulseX.png",
     amount: 1
 }, ]
 

@@ -14,6 +14,11 @@
     <link rel="stylesheet" href="assets/styles/slick-theme.css">
     <link rel="stylesheet" href="assets/styles/slick.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+
 </head>
 
 
@@ -74,20 +79,20 @@
 
         </h2>
         <div class="mainexplore">
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <span class="clip"></span>
                 <p class="head">Laptop Collection</p>
                 <span class="title"> <p>shop now</p> <i  class="arrow fa-solid fa-arrow-right"></i></span>
                 <div class="img"><img src="assets/images/laptops/MacBookObsidianStealth.png" alt=""></div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <span class="clip"></span>
                 <p class="head">Cameras Collection</p>
                 <span class="title"> <p>shop now</p> <i  class="arrow fa-solid fa-arrow-right"></i></span>
                 <div class="img"><img src="assets/images/cameras/PhantomLux5000.png" alt=""></div>
 
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-up">
                 <span class="clip"></span>
                 <p class="head">Accessories Collection</p>
                 <span class="title"> <p>shop now</p> <i class="arrow fa-solid fa-arrow-right"></i></span>
@@ -112,7 +117,8 @@
     </section>
     <!-- end new product  -->
     <!-- start section offers  -->
-    <section class="offers">
+    <section class="offers" data-aos="zoom-in">
+
         <div class="counter">
             <div class="timer">
                 <span class="days">
@@ -138,7 +144,8 @@
         </div>
     </section>
     <!-- end section offers  -->
-    <section class="topSelling">
+    <section class="topSelling" data-aos="fade-left">
+
         <h2>Top Selling</h2>
         <div class="arrows">
             <button class="prevSell"><i class="fa-solid fa-arrow-left"></i></button>
@@ -308,6 +315,16 @@
     <script src="scripts/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+        window.addEventListener("load", () => {
+            AOS.refresh();
+        });
+    </script>
 </body>
 
 </html>
